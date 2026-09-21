@@ -4,6 +4,8 @@
 **Roll No:** 150096725068
 **Cohort:** Sam Altman
 
+**Deployed Link:** https://assignment-10-car-rental-system-api-rren.onrender.com/
+
 Backend for a Car Rental & Vehicle Fleet Management system built with **Node.js, Express, and Supabase (PostgreSQL + Auth)**. Prevents double-booking with date-range collision checks and calculates rental cost automatically from day span × daily rate.
 
 ## Features
