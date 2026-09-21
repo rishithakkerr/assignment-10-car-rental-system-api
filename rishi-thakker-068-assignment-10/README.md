@@ -13,33 +13,6 @@ Backend for a Car Rental & Vehicle Fleet Management system built with **Node.js,
 - Automatic `total_cost = days * daily_rate` calculation on booking
 - Vehicle status transitions: `available` → `rented` → `available` on cancel/complete
 
-## Setup
-
-```bash
-# 1. Install dependencies
-npm install
-
-# 2. Run the schema.sql script in your Supabase project
-#    Dashboard → SQL Editor → paste schema.sql → Run
-
-# 3. Fill in your Supabase credentials in config/supabase.js
-#    (Project Settings → API → Project URL & anon public key)
-
-# 4. Run in dev mode (auto-restart)
-npm run dev
-
-# or run normally
-npm start
-```
-
-## Authentication
-Unlike the earlier assignments' custom JWT, this one uses **Supabase Auth** directly. After
-`/api/auth/login`, send the returned `access_token` as a standard bearer header:
-
-```
-Authorization: Bearer <access_token>
-```
-
 ## API Endpoints
 
 ### Auth
